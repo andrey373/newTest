@@ -1,0 +1,29 @@
+@media (max-width: 1100px) {
+  .header_top {
+    font-size: 16px;
+  }
+  .header_content .title {
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .header_content .subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .header_content .title_btn {
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 1em 4em 1em 2em;
+  }
+}
+@media (max-width: 970px) {
+  .list_menu {
+    display: none;
+  }
+  .mobile_menu_btn {
+    display: inline-block;
+    width: 50px;
+  }
+}

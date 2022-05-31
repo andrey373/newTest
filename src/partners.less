@@ -1,0 +1,39 @@
+
+.partners{
+    padding: 60px 10px 100px;
+}
+
+.container_partners{
+    max-width: 1265px;
+    margin: 0 auto;
+    padding: 0 45px;
+}
+
+.slider{
+    position: relative;
+}
+
+.owl-nav{
+    &:extend(.flex-sp-between);
+    width: 100%;
+    font-size: 50px;
+    color: @bg-btn;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.owl-prev
+.owl-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.owl-prev{
+    margin-left: -45px;
+}
+
+.owl-next{
+    margin-right: -45px;
+}
